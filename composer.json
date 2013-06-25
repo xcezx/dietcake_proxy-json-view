@@ -1,0 +1,31 @@
+{
+    "name": "maekawa-t/dietcake_proxy-json-view",
+    "description": "View components to output in JSON format using template file for DietCake",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xcezx",
+            "email": "main.xcezx@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git://github.com/xcezx/dietcake.git"
+        }
+    ],
+    "require": {
+        "dietcake/dietcake": "dev-composerize"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "mikey179/vfsStream": "1.3.*@dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/Dietcake/"
+        }
+    }
+}
